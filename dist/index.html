@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- googleicon , font-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio 2024</title>
+    <script type="module" crossorigin src="assets/main-B3F8lvwd.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/main-DYScCXWH.css" />
+  </head>
+  <body
+    id="app"
+    class="min-h-dvh bg-black opacity-100 transition-all duration-500 ease-in min-w-full"
+  >
+    <div
+      id="loader"
+      class="min-w-full min-h-full absolute z-50 bg-black top-0 left-0 opacity-100 transition-all duration-200 ease-in"
+    >
+      <div class="spinner">
+        <div class="react1"></div>
+        <div class="react2"></div>
+        <div class="react3"></div>
+        <div class="react4"></div>
+        <div class="react5"></div>
+      </div>
+    </div>
+    <div id="content" class="bg-black hidden">
+      <!--header-->
+      <header
+        class="text-white min-w-full flex justify-between p-8 text-xl absolute z-20"
+      >
+        <p class="font-semibold tracking-widest" title="Albert Jefferson Abuy">
+          <a href="">&lt; Jeffrey /&gt;</a>
+        </p>
+        <div
+          title="MENU"
+          id="menuBar"
+          class="flex items-center hover:cursor-pointer hover:text-rose-600 ease-in duration-75"
+        >
+          <div class="hover:text-rose-600 ease-in duration-75">MENU</div>
+          <div class="flex">
+            <span
+              class="material-symbols-outlined hover:text-rose-600 ease-out duration-75"
+            >
+              menu
+            </span>
+          </div>
+        </div>
+      </header>
+      <!--Nav-->
+      <nav
+        id="menuNav"
+        class="fixed top-0 left-0 w-full min-h-dvh z-50 items-start flex-col bg-black opacity-0 text-white hidden transition-all duration-500 ease-in"
+      >
+        <header
+          class="text-white min-w-full flex justify-between p-8 text-xl z-20"
+        >
+          <p
+            class="font-semibold tracking-widest"
+            title="Albert Jefferson Abuy"
+          >
+            <a href="">&lt; Jeffrey /&gt;</a>
+          </p>
+          <div title="MENU" class="flex items-center hover:cursor-pointer">
+            <div
+              id="menuClose"
+              class="flex hover:text-rose-600 ease-out duration-75"
+            >
+              <span class="material-symbols-outlined"> close </span>
+            </div>
+          </div>
+        </header>
+        <div
+          class="flex flex-col p-10 gap-20 font-bold text-6xl tracking-wider w-full"
+        >
+          <a
+            id="link"
+            href="index.html"
+            class="hover:text-rose-600 transition-all duration-200 ease-in"
+            >WORK
+            <hr class="w-32 min-h-1 border-none bg-rose-600"
+          /></a>
+          <a
+            id="link"
+            href="about.html"
+            class="hover:text-rose-600 transition-all duration-200 ease-in"
+            >ABOUT
+            <hr class="w-32 min-h-1 border-none bg-rose-600" />
+          </a>
+          <a
+            id="link"
+            href="contact.html"
+            class="hover:text-rose-600 transition-all duration-200 ease-in"
+            >CONTACT
+            <hr class="w-32 min-h-1 border-none bg-rose-600"
+          /></a>
+        </div>
+      </nav>
+      <!--Content-->
+      <section
+        class="min-h-dvh z-10 flex items-center justify-center border-b-rose-600 border-b-8 before:absolute before:w-1/2 before:border-b-4 before:bg-zinc-950 before:z-0 before:border-rose-600 before:min-h-dvh before:right-0"
+        id="main"
+      >
+        <div class="z-10 flex flex-col items-center justify-center">
+          <img class="rounded-full max-h-28 mb-14" src="docs/pfp.jpg" />
+          <h1 class="text-rose-600 font-extrabold text-6xl text-center">
+            ALBERT JEFFERSON ABUY
+          </h1>
+          <hr class="my-8 border-t-4 min-w-56" />
+          <h1 class="text-rose-600 font-bold text-2xl">FRONT-END DEVELOPER</h1>
+        </div>
+        <div
+          class="absolute z-10 bottom-5 text-white scale-150 animate-bounce flex flex-col justify-center items-center"
+        >
+          <span class="material-symbols-outlined text-6xl"> expand_more </span>
+        </div>
+      </section>
+      <!--Work-->
+      <section
+        class="grid grid-cols-3 text-white lg:grid-cols-2 md:grid-cols-1"
+        id="work"
+      >
+        <a
+          href="https://ichiiexe.github.io/weatherapp/"
+          target="_blank"
+          class="min-w-full min-h-full"
+        >
+          <div
+            class="relative min-h-96 workHover overflow-hidden before:bg-weatherapp before:bg-center before:bg-cover before:absolute before:top-0 before:w-full before:h-full before:grayscale before:filter before:opacity-40 before:transition-all before:duration-500 before:ease-out"
+          >
+            <span
+              class="absolute flex flex-shrink justify-center items-center w-28 h-28 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-6xl text-rose-600 border-rose-600 border-8 rounded-full opacity-100 transition-all duration-300 ease-in-out"
+              >1</span
+            >
+            <div
+              class="workDescription absolute min-w-full min-h-10 bottom-0 translate-y-10 transition-all duration-300 ease-in p-3"
+            >
+              <h1 class="text-2xl italic">Minimalistic Weather App</h1>
+              <hr class="mt-1 mb-4 border-t-4 w-20" />
+              <p>JavaScript/ Tailwind</p>
+            </div>
+          </div>
+        </a>
+        <a href="youtube.com" target="_blank" class="min-w-full min-h-full">
+          <div
+            class="relative min-h-96 workHover overflow-hidden before:bg-jsquiz before:bg-center before:bg-cover before:absolute before:top-0 before:w-full before:h-full before:grayscale before:filter before:opacity-40 before:transition-all before:duration-500 before:ease-out"
+          >
+            <span
+              class="absolute flex flex-shrink justify-center items-center w-28 h-28 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-6xl text-rose-600 border-rose-600 border-8 rounded-full opacity-100 transition-all duration-300 ease-in-out"
+              >2</span
+            >
+            <div
+              class="workDescription absolute min-w-full min-h-10 bottom-0 translate-y-10 transition-all duration-300 ease-in p-3"
+            >
+              <h1 class="text-2xl italic">JavaScript Quiz</h1>
+              <hr class="mt-1 mb-4 border-t-4 w-20" />
+              <p>HTML/ CSS/ JavaScript</p>
+            </div>
+          </div>
+        </a>
+        <a href="youtube.com" target="_blank" class="min-w-full min-h-full">
+          <div
+            class="relative min-h-96 workHover overflow-hidden before:bg-activitygen before:bg-center before:bg-cover before:absolute before:top-0 before:w-full before:h-full before:grayscale before:filter before:opacity-40 before:transition-all before:duration-500 before:ease-out"
+          >
+            <span
+              class="absolute flex flex-shrink justify-center items-center w-28 h-28 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-6xl text-rose-600 border-rose-600 border-8 rounded-full opacity-100 transition-all duration-500 ease-in-out"
+              >3</span
+            >
+            <div
+              class="workDescription absolute min-w-full min-h-10 bottom-0 translate-y-10 transition-all duration-300 ease-in p-3"
+            >
+              <h1 class="text-2xl italic">JavaScript Quiz</h1>
+              <hr class="mt-1 mb-4 border-t-4 w-20" />
+              <p>HTML/ CSS/ JavaScript</p>
+            </div>
+          </div>
+        </a>
+      </section>
+    </div>
+  </body>
+</html>
